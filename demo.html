@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+    <head>
+        <title> My FB Photos </title>
+        <script src="photosedit.js" type="application/ecmascript"></script>
+                <link rel="stylesheet" href="index.css" type="text/css">
+    </head>
+    <body>
+        <div id = "container">
+        </div>
+        <script>
+            function init() {
+                config = {
+                    access_token:"CAACEdEose0cBAGTjNpIyZBiiPrYfyxI1DoZCuETdFnEQ36PNTPoABsZCmqehhO3y3HIJuMzzE3DgZCAXqtLOZCSSdyJd4YxIKomq4myR7lntNFTy2vGxc0ZCpMJXGHGxgtmq0BiwzNuByrcumkn4RXbsGoajCVhVZCvHG19SdF8JarjgtuOefqXnZAFAkylfHsUpedMablBOWAZDZD",
+                    img_width: 200,
+                    id: 'container'
+                };
+                fbPhotosInfScroll.init(config);
+            }
+            window.addEventListener('load', init);
+        </script>
+    </body>
+
+</html>
